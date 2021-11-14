@@ -1,13 +1,121 @@
+
+
 .campo{
 	padding: 5px;
 	border: solid 1px green;
 }
 
-.container{
-
-	width: 700px; 
-    margin-left: auto;
-    margin-right: auto;
+.containerSlog{
+	
 	text-align: center;
 	background-color: green;
+	font-weight:bold;
+	font-size: 30px;
+}
+
+.containerMenu{
+	background-color: indianred;
+	text-align: center;
+}
+
+.containerfundo{
+	
+	background: url('../img/fundo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+
+
+}
+
+.containerprodutos{
+	
+	background-color: #33ECFF;
+	height: 1000px;
+	width: 100%;
+}
+
+.tablemenu{
+	
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	table-layout: fixed;
+}
+.tdslogan{
+
+	margin: 0;
+
+}
+
+.tdsloganimg img{
+    width: 200px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	padding-right: 100px;
+	padding-left: 80px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.tdscarrinhoimg img{
+    width: 50px;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+.tdmenu{
+
+	text-align:center;
+	vertical-align:middle;
+	/*background-color: green;*/
+	padding-right: 100px;
+	padding-left: 100px;
+	
+}
+
+.frasecadastrar{
+	color: blueviolet;
+	font-weight:bold;
+	font-size: 50px;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+.buttoncadastrar{
+
+	text-align: center;
+	position: relative;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.pprodutosmaisvendidos{
+	text-align: center;
+	color: blue;
+	font-weight:bold;
+	font-size: 50px;
+}
+
+.tableprodutosmaisvend{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+	text-align: center;
 }
