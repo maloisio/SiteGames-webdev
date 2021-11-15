@@ -1,49 +1,59 @@
-
-
-.campo{
-	padding: 5px;
-	border: solid 1px green;
-}
-
-.containerSlog{
+.container-slog{
 	
 	text-align: center;
-	background-color: green;
+	background:linear-gradient(to bottom, #6445c7 5%, #bdb62a 100%);
+	background-color:#6445c7;
 	font-weight:bold;
 	font-size: 30px;
 }
 
-.containerMenu{
+.container-menu{
 	background-color: indianred;
 	text-align: center;
 }
 
-.containerfundo{
-	
+.container-fundo{
 	background: url('../img/fundo.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
 	height: 800px;
-
-
 }
 
-.containerprodutos{
-	
+.container-produtos{
 	background-color: #33ECFF;
-	height: 1000px;
+	height: 700px;
 	width: 100%;
 }
 
+.container-demonstracao{
+	background-color: #F5DEB3;
+	height: 700px;
+	width: 100%;
+}
+
+.container-contatos{
+	background-color: #a0f3e8;
+	height: 200px;
+	text-align: center;
+	color: blueviolet;
+	font-size: larger;
+	padding-top: 100px;
+}
+
+.container-rodape{
+	background-color: #a09fdf;
+	height: 100px;
+}
+
 .tablemenu{
-	
 	border-collapse: collapse;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	table-layout: fixed;
 }
+
 .tdslogan{
 
 	margin: 0;
@@ -72,7 +82,6 @@
 	padding-bottom: 15px;
 }
 
-
 .tdmenu{
 
 	text-align:center;
@@ -83,8 +92,8 @@
 	
 }
 
-.frasecadastrar{
-	color: blueviolet;
+.titulo-cadastrar{
+	color: #6445c7;
 	font-weight:bold;
 	font-size: 50px;
 	text-align: center;
@@ -92,8 +101,24 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	
 }
+
+.titulo-produtosmaisvendidos{
+	text-align: center;
+	color: blue;
+	font-weight:bold;
+	font-size: 40px;
+	padding-bottom: 50px;
+}
+
+.titulo-demonstracao{
+	text-align: center;
+	font-weight:bold;
+	font-size: 40px;
+	color: #6445c7;
+	padding-bottom: 50px;
+}
+
 .buttoncadastrar{
 
 	text-align: center;
@@ -104,14 +129,32 @@
 
 }
 
-.pprodutosmaisvendidos{
-	text-align: center;
-	color: blue;
-	font-weight:bold;
-	font-size: 50px;
+.buttonstyle{
+	
+	background:linear-gradient(to bottom, #6445c7 5%, #bdb62a 100%);
+	background-color:#6445c7;
+	border-radius:28px;
+	border:1px solid #ab7619;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #342866;
 }
 
-.tableprodutosmaisvend{
+.buttonstyle:hover {
+	background:linear-gradient(to bottom, #bdb62a 5%, #6445c7 100%);
+	background-color:#bdb62a;
+}
+.buttonstyle:active {
+	position:relative;
+	top:1px;
+}
+
+.table-produtosmaisvend{
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -119,3 +162,28 @@
 	table-layout: fixed;
 	text-align: center;
 }
+
+.table-iconesrodape{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+	text-align: center;
+}
+
+.img-produtosmaisvend img{
+
+	cursor:pointer;
+	width: 235px;
+	height: 326px;
+}
+
+.img-iconesrodape img{
+	cursor:pointer;
+	width: 100px;
+	height: 100px;
+}
+
+
+	
