@@ -13,7 +13,7 @@ function salvarLogin(){
         return;
     }
     else{
-        alert("Dados salvos com sucesso!");
+        alert("Login realizado!");
 
     }
 }
