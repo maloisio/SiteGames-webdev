@@ -3,8 +3,6 @@ function salvarLogin(){
 
     var usuarioLogin = document.getElementById("usuarioLogin");
     var senhaLogin = document.getElementById("senhaLogin");
- 
-
 
     if (usuarioLogin.value == "" || senhaLogin.value == ""){
 
